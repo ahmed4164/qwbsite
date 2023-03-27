@@ -16,19 +16,6 @@ function toggleMenu() {
   }
 }
 hamburger.addEventListener("click", toggleMenu);
-
-// button1 redirect
-// const btn_1=document.getElementById("button1");
-// btn_1.addEventListener("click", redirect);
-// function redirect(){
-//   location.href = "About.html";
-// };
-// // button2 redirect
-// const btn_2=document.getElementById("button2");
-// btn_2.addEventListener("click", redirectto);
-// function redirectto(){
-//   location.href = "Contact.html";
-// };
 // api for random Quote
 const apiKey="HbaTfClbMy5JS3ZU0wL+8w==oPhwma1UKGTS3HSI";
 const quoteEle=document.getElementById("Quote");
