@@ -9,8 +9,11 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-a{
+a.hom{
     color: var(--txt-color);
+    padding: 2rem 3rem;
+    display: block;
+    transition: 0.3s ease;
 }
 a:hover{
     color:var(--bg-color) ;
@@ -110,7 +113,8 @@ ul li a:hover{
 }
 ul li a{
     text-decoration: none;
-    color: var(--txt-color)
+    color: var(--txt-color);
+    transition: 0.3s ease;
 }
 .text{
     text-transform: uppercase;
@@ -132,7 +136,7 @@ ul li a{
     font-size: 1.5rem;
     font-weight: bold;
     outline: none;
-    padding: 2rem 3rem;
+    /* padding: 2rem 3rem; */
     text-transform: uppercase;
     letter-spacing: .2rem;
 }
@@ -345,6 +349,7 @@ button.hamburger .closeIcon{
     html{
         font-size: 55%;
     }
+   
     div.projsection{
         height:100vh;
         /* background-color: var(--bg-color); */
@@ -393,7 +398,12 @@ button.hamburger .closeIcon{
 }
 @media(max-width:768px){
     html{
-        font-size: 45%;
+        font-size: 55%;
+    }
+    .nav{
+        z-index: 1000;
+        top: 0;
+        padding-top: 1rem;
     }
     ul{
         display: flex;
@@ -414,14 +424,15 @@ button.hamburger .closeIcon{
     }
     .hamburger {
         display: block;
+        margin-top: 1rem;
         position: fixed;
         z-index: 100;
         top: 1rem;
         right: 1rem;
         background-color: var(--txt-color);
         /* border-bottom: var(--bg-color); */
-        padding: 4px;
-        padding: 0;
+        padding: 1rem;
+        /* padding: 0; */
         cursor: pointer;
         border: none;
         background-color: transparent;
@@ -538,7 +549,7 @@ button.hamburger .closeIcon{
 }
 @media(max-width:600px){
     html{
-        font-size: 40%;
+        font-size: 50%;
     }
     div.outer{
         width: 100%;
@@ -551,7 +562,7 @@ button.hamburger .closeIcon{
 }
 @media(max-width:480px){
     html{
-        font-size: 45%;
+        font-size: 50%;
     }
     div.outer{
         width: 100%;
