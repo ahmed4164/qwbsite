@@ -9,8 +9,8 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
-a{
-    color:var(--txt-color) ;
+a:hover{
+    color:var(--bg-color) ;
 }
 :root{
     --bg-color:#fff;
