@@ -1,4 +1,2 @@
-# qwbsite
+# Website
 Created my portfolio webste
-##
-watching a yt channel
