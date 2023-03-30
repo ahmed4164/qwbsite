@@ -24,6 +24,7 @@ a:hover{
 }
 .dark-theme{
     --bg-color:#000;
+    /* --bg-color:#111827; */
     --txt-color:#fff;
 }
 html{
@@ -152,6 +153,11 @@ div h3,h4{
 div h1{
     /* font-size: 3.5rem; */
     font-size: 3rem;
+}
+.Quote{
+    font-weight: 900;
+    font-size: 2rem;
+    font-style: italic;
 }
 /* ------contact_start-------- */
 div.work{
